@@ -1,0 +1,52 @@
+body {
+  background-image: url("IMG_5984.JPG");
+  background-size: 1500px;
+  background-position: center;
+  margin: 0;
+}
+.main {
+  width: 100%;
+  height: 732px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.clock {
+  width: 40%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#hours {
+  border: 3px solid;
+  border-color: rgba(0, 0, 0, 0.7);
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+#minutes {
+  border: 3px solid;
+  border-color: rgba(0, 0, 0, 0.7);
+
+  width: 33%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#seconds {
+  border: 3px solid;
+  border-color: rgba(0, 0, 0, 0.7);
+
+  width: 33%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
